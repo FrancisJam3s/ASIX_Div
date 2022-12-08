@@ -1,0 +1,40 @@
+.lightgreen {
+  /*En cada color, hem definit les seves proporcions, color i posició*/
+    width: 160px; /*El width i el height ens permeten definir les proporcions*/
+    height: 120px;
+    background-color: lightgreen; 
+    position: absolute;
+    top: 40px; /*El top i left ens deixen definir la posició de cada color*/
+    left: 20px;
+    z-index: 2; /*Gràcies al z-index, ens deixa apilar cada color tal i com vulguem*/
+  }
+  
+  .purple{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    background-color: purple;
+    z-index: 3;
+  }
+  
+  .lightpink{
+    width: 160px;
+    height: 120px;
+    background-color: lightpink; 
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    z-index: 1;
+  }
+  
+  .blue{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    z-index: 2;
+  }

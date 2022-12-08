@@ -1,0 +1,27 @@
+/*Hem posicionat tots en absolute per que el text tingui com a referencia la foto*/
+.div1 {
+    position: absolute;
+  }
+/*En aques apartat hem editat l'imatge per que es pugi veure el text*/
+img { 
+    width: 100%;
+    height: auto;
+    opacity:0.5;
+  }
+/*En el cas dels texts, hem definit la posició, la grandària i el color*/
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: blue;
+  }
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+
+}
